@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<iostream>
-#include<unistd.h>
 #include<string>
 #include<cstring>
 using namespace std;
@@ -27,7 +26,6 @@ cout << printed;
 cout << "\n";
 counter -= 1;
 printed += 1;
-usleep(1000000);
 if(counter == 0 || counter < 0)
 {
 executing = false;
